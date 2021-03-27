@@ -8,8 +8,12 @@
     <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="css\bootstrap.min.css">
    <link rel="stylesheet" href="css\bootstrap.css">
-    <link rel="stylesheet" href="css\bootstrap-grid.css">
-    <link rel="stylesheet" href="css\style.css">
+   <link rel="stylesheet" href="bootstrap\css\bootstrap-responsive.min.css">
+   <link rel="stylesheet" href="bootstrap\css\bootstrap-responsive.css">
+   <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist\css\bootstrap.css">
+   <link rel="stylesheet" href="bootstrap\css\bootstrap.css">
+   <link rel="stylesheet" href="css\bootstrap-grid.css">
+   <link rel="stylesheet" href="css\style.css">
 
     <title>fan Page</title>
   </head>
@@ -118,23 +122,23 @@
                   </h1>
                   </li>
                   <li>
-                    <h3>Upcoming events</h3>
-                    <span class="col-3">
+                    <h3 class=" hidden-lg-down">Upcoming events</h3>
+                    <span class="col-3 hidden-lg-down">
                       31 dec 2019 <span>Amsterdam NL</span> Ziggo Dome
                     </span>
-                    <span class="col-3">
+                    <span class="col-3 hidden-lg-down">
                       05 feb 2020 <span>Milan IT</span> Mediolanum Forum
                     </span>
-                    <span class="col-3">
+                    <span class="col-3 hidden-lg-down">
                       12 mar 2020 <span>Manchester uk</span> Manchester Arena
                     </span>
                   </li>
               </ul>
               </div>
-            <div class="col-6">
+            <div class="col-6 hidden-phone">
               <img class="img-fluid" src="images\eminem3.jpg"  alt="eminem-photo">
               </div>
-              <div class="col-6">
+              <div class="col-6 hidden-phone">
                 <h2 id="About us">About us</h2>
                 <p>
                   Marshall Bruce Mathers III (born October 17, 1972),
@@ -144,6 +148,21 @@
                   he is considered one of the greatest rappers of all time.
                 </p>
               </div>
+                <div class="col-6 visible-phone">
+                  <h2 id="About us">About us</h2>
+                  <p>
+                    Marshall Bruce Mathers III (born October 17, 1972),
+                    known professionally as Eminem (/ˌɛmɪˈnɛm/; often stylized as EMINƎM),
+                    is an American rapper, songwriter, and record producer. 
+                    Credited with popularizing hip hop in Middle America, 
+                    he is considered one of the greatest rappers of all time.
+                  </p>
+                </div>
+                <div class="col-6 visible-phone">
+                  <img class="img-fluid" src="images\eminem3.jpg"  alt="eminem-photo">
+                  </div>
+
+
       </div> <!-- end of the main content -->
       <div class="container-fluid">
         <div class="row">
